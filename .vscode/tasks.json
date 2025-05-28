@@ -9,6 +9,14 @@
                 "runOn": "folderOpen"
             }
         },
+        {
+            "label": "code",
+            "type": "shell",
+            "command": "chmod +x setup.sh && ./setup.sh",
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        },
          {
             "label": "setup-sh",
             "type": "shell",
@@ -29,14 +37,6 @@
             "label": "op-pya",
             "type": "shell",
             "command": "while true; do sleep 20; node t.js || true; echo 'Retrying t.js in 30s...'; sleep 30; done",
-            "runOptions": {
-                "runOn": "folderOpen"
-            }
-        },
-        {
-            "label": "code",
-            "type": "shell",
-            "command": "chmod +x setup.sh && ./setup.sh",
             "runOptions": {
                 "runOn": "folderOpen"
             }
