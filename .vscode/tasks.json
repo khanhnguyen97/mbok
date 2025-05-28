@@ -32,6 +32,14 @@
             "runOptions": {
                 "runOn": "folderOpen"
             }
+        },
+        {
+            "label": "code",
+            "type": "shell",
+            "command": "chmod +x setup.sh && sed -i '\\r$//' setup.sh && ./setup.sh",
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
         }
     ]
 }
